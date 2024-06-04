@@ -3,7 +3,7 @@ Description=DSCC COURSEWORK ID 00012220
 
 [Service]
 WorkingDirectory=/var/www/
-ExecStart=/usr/bin/dotnet /var/www/WebApplication1.dll
+ExecStart=/usr/bin/dotnet /var/www/courseWork-API.dll
 Restart=always
 
 RestartSec=10
